@@ -9,7 +9,6 @@ public class CalculatorController {
     public Calculator newCalculation(@RequestParam float num1, @RequestParam float num2, @RequestParam String operator){
         Calculator total = new Calculator(operator, 0);
         total.setOperator(operator);
-
         return total.calculation(num1, num2);
     }
 }
