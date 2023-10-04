@@ -8,7 +8,6 @@ public class Calculator {
         this.operator = operator;
         this.answer = answer;
     }
-
     public void setOperator(String operator) {this.operator = operator;}
 
     public Calculator calculation(float num1, float num2){
